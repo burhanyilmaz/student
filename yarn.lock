@@ -733,10 +733,10 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@educa/components@latest":
-  version "0.0.18"
-  resolved "https://registry.yarnpkg.com/@educa/components/-/components-0.0.18.tgz#f14ebb27af757c05e9323cf2622290222e0a69ef"
-  integrity sha512-ydw2BZZKR3iSc32D+SxfFNPvL1jsIPE4z9O4VeziG0tfAOtao4EGLW3DeXPX8v7xgwvLZPFySXy7ZOrGkHVGsg==
+"@educa/components@^0.0.27":
+  version "0.0.27"
+  resolved "https://registry.yarnpkg.com/@educa/components/-/components-0.0.27.tgz#fc2568ac9c28457b5152ee05afa2a7807ac98b34"
+  integrity sha512-JLhb5aL+AMCZbnBu7+0dnpHlmxbN+OpVIJjgKzNX3pqt40mq8LEaX5sWhmz7q4CnjENzQ1yNmAufTtZiHbB59g==
   dependencies:
     react "^16.13.1"
     react-native "^0.63.2"
