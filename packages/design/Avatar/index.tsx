@@ -4,9 +4,10 @@ import {Image} from 'react-native';
 interface IRoundedAvatar {
   uri: string;
   size: number;
+  borderWidth?: number;
 }
 
-const Avatar = ({uri, size}: IRoundedAvatar) => {
+const Avatar = ({uri, size, borderWidth = 0}: IRoundedAvatar) => {
   return (
     <Image
       source={{uri}}
@@ -14,6 +15,7 @@ const Avatar = ({uri, size}: IRoundedAvatar) => {
         width: size,
         height: size,
         borderRadius: size / 2,
+        borderWidth,
       }}
     />
   );
