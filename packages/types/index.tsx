@@ -12,3 +12,7 @@ export interface CourseClass {
   id: number;
   name: string;
 }
+
+export interface Calendar {
+  id: number;
+}

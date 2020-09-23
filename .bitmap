@@ -78,12 +78,12 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "burhanyilmaz.packages/types@0.0.1": {
+    "burhanyilmaz.packages/types@0.0.2": {
         "files": [
             {
+                "name": "index.tsx",
                 "relativePath": "packages/types/index.tsx",
-                "test": false,
-                "name": "index.tsx"
+                "test": false
             }
         ],
         "mainFile": "packages/types/index.tsx",
